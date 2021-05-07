@@ -7,7 +7,6 @@ var apiKey = 'd71c1be9151a89df5059df5d7300ceb8';
 var apiURLRoot = 'https://api.openweathermap.org/data/2.5/weather?';
 
 //functions 
-
 function getWeather (){
     console.log('getWeather is working');
     //get name of city 
@@ -26,3 +25,5 @@ function getWeather (){
 
 //event listeners 
 searchButton.addEventListener('click', getWeather);
+
+//current weather display 

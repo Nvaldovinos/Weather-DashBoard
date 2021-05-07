@@ -1,0 +1,25 @@
+body{
+    background-color: #d9dcd6;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+.header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.button{
+    background-color: rgb(18, 143, 185);
+  border: none;
+  color: white;
+  padding: 3px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
