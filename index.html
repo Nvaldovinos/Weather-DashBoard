@@ -13,16 +13,57 @@
     <header>
      <h1 class="header">Weather Dashboard</h1>
     </header>
+
     <h2>Search for a city:</h2>
         <form id="search-form">
-            <input type="text" id="search-input" placeholder="Type city name here"/>
+            <input type="text" class="form-input" id="search-input" name="search-input" placeholder="Type city name here"/>
         </form>
         <button class="button" id="search-button">Search</button>
-        <ul id="searched-cities"></ul>
-    </main>
-   
-   
-                
+        <ul id="searched-list"></ul>
+
+     <section id="forecast" class="col-md-10 offset-md-7">
+        <div class="row mx-3 border border-dark">
+            <div class="currentCity font-weight-bold">City: </div>
+            <div class="col-12">Temperature: <span id="temperature"></span></span></div>
+            <div class="col-12">Wind: <span id="wind"></span></div>
+            <div class="col-12">Humidity: <span id="humidity"></span></div>
+            <div class="col-12">UV Index: <span id="uv"></span></div> 
+
+        </div>
+     </section>
+
+    <h3>5-Day Forecast: </h3>
+    <div class="card-deck">
+        <div class="card bg-dark text-white">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the first card</p>
+          </div>
+        </div>
+        <div class="card bg-dark text-white">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the second card</p>
+          </div>
+        </div>
+        <div class="card bg-dark text-white">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the third card</p>
+          </div>
+        </div>
+        <div class="card bg-dark text-white">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the fourth card</p>
+          </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the fourth card</p>
+            </div>
+          </div>
+      </div>
+
+     
+      
+    </main>             
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
